@@ -1,0 +1,13 @@
+index:
+    path: /
+    defaults: { _controller: 'App\Controller\DefaultController::indexAction' }
+
+backend:
+    path: /backend
+    defaults: { _controller: 'App\Controller\BackendController::indexAction' }
+
+
+# first, run composer req annotations
+#controllers:
+#    resource: ../src/Controller/
+#    type: annotation
